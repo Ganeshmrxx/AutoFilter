@@ -72,7 +72,7 @@ APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 DATABASE_URI = environ.get('DATABASE_URI', "")
 DATABASE_URI2 = environ.get('DATABASE_URI2', "")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', '2in1users')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'MovieBoxDATA')
 # ============================
 # Movie Notification & Update Settings
 # ============================
